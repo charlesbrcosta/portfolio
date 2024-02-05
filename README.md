@@ -14,17 +14,18 @@ Este é um projeto de portfolio desenvolvido com o objetivo de aprimorar as habi
 
 O projeto está organizado da seguinte maneira:
 
-/portfolio
-|-- index.html
-|-- about.html
-|-- curriculum.html
-|-- assets
-| |-- images
-| |-- imagem1.jpg
-| |-- imagem2.png
-|-- styles.css
-|-- curriculum.css
+**/portfolio**
+  - `index.html`
+  - `about.html`
+  - `curriculum.html`
+  - **/assets**
+    - **/images**
+      - `imagem1.jpg`
+      - `imagem2.png`
+  - `styles.css`
+  - `curriculum.css`
 
+<br />
 
 - **index.html**: Página principal do portfolio.
 - **about.html**: Página contendo informações sobre mim.
