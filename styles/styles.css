@@ -1,0 +1,127 @@
+/* Estilização do index e about */ 
+body{    
+    background-color:var(--cor-primaria);
+    color:var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 3px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.cabecalho-menu-link:hover{
+    border-color: var(--cor-secundaria);
+    text-align: center;
+    color: var(--cor-secundaria);
+    transition: 0.2s;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 82px;
+}
+
+.apresentacao-conteudo{
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao-conteudo h1,
+.apresentacao-conteudo p {
+    text-align: justify;
+}
+
+.apresentacao-conteudo-titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte-principal);
+}
+
+.titulo-destaque{
+    color:var(--cor-terciaria);
+    
+}
+
+.apresentacao-conteudo-texto{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    width: 574px;
+}
+
+.apresentacao-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+    
+}
+
+.apresentacao-links-subtitulo{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.apresentacao-links-link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+
+.apresentacao-links-link:hover {
+    background-color: var(--cor-hover);
+    border: none;
+    border-top: 2px solid var(--cor-terciaria);
+    border-bottom: 2px solid var(--cor-terciaria);
+    transition: 0.2s;
+}
+
+.apresentacao-imagem {
+    width: 488px;
+    height: 550px;
+
+}
+
+
+.rodape{
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400; 
+    color: #000000;
+    text-align: center;
+}

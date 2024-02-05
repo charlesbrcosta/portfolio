@@ -1,0 +1,88 @@
+.apresentacao-curriculo {
+    padding: 5% 15%;
+}
+
+.apresentacao-curriculo h1 {
+    font-family: var(--fonte-principal);
+    font-size: 1.75rem;
+}
+
+.apresentacao-curriculo h2,
+.apresentacao-curriculo h3,
+.apresentacao-curriculo p {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.apresentacao-info-pessoal h1,
+.apresentacao-info-pessoal h2,
+.apresentacao_info-pessoal p { 
+    padding: 5px 0 5px 0;
+}
+
+.info-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.media-social {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px 0 0 0;
+}
+
+.media-social a {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 8px;
+    padding: 7px 8px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.media-social a:hover {
+    border-color: var(--cor-terciaria);
+    background-color: var(--cor-hover);
+    text-align: center;
+}
+
+.curriculo-conteudo{
+    margin-top: 50px;
+}
+
+.resumo-secao {
+    margin-top: 40px;
+}
+
+.resumo-secao h1,
+.resumo-secao h2,
+.resumo-secao h3,
+.resumo-secao p {
+
+    margin-top: 7px;
+}
+
+.resumo-secao h1 {
+    
+    background-color: var(--cor-quaternaria);
+    padding: 7px 7px;
+    color: var(--cor-primaria)
+}
+
+.resumo {
+    text-align: justify;
+}
+
+ul li {
+    padding: 8px;
+    margin: 5px 30px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+
+
+

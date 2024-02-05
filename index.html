@@ -5,24 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="./image/icon-portfolio.png" type="image/x-icon" />
         <title>Portfólio de Charles Bruno</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/global.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+        
     </head>
     <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-link" href="/">Home</a>
+            <a class="cabecalho-menu-link" href="./about.html">Sobre mim</a>
+            <a class="cabecalho-menu-link" href="./curriculum.html">Currículo</a>
+        </nav>
+    </header>
         <main class="apresentacao">
-            <section class="apresentacao_conteudo">
-                <h1 class="apresentacao_conteudo_titulo">Elevando o meu nível aprendendo <strong class="titulo-destaque">Front-end de qualidade!</strong></h1>
-
-                <p class="apresentacao_conteudo_texto">Olá! Sou Charles Bruno, desenvolvedor Front-end me capacitando em React, HTML e CSS. Quero desenvolver pequenos projeto do lado do Front e depois me capacitar do lado do Back-end.</p>
-                <div class="apresentacao_links">
-                    <a class="apresentacao_links_link" href="https://www.linkedin.com/in/charlesbrcosta" target="_blank"> Linkedin</a>
-                    <a class="apresentacao_links_link" href="https://www.github.com/charlesbrcosta" target="_blank">Github</a>
+            <section class="apresentacao-conteudo">
+                <h1 class="apresentacao-conteudo-titulo">Elevando o meu nível aprendendo <strong class="titulo-destaque">Front-end de qualidade!</strong></h1>
+                <p class="apresentacao-conteudo-texto">Olá! Sou Charles Bruno, desenvolvedor Front-end me capacitando em React, HTML e CSS. Quero desenvolver vários projetos do lado do Front e depois me capacitar do lado do Back-end.</p>
+                <div class="apresentacao-links">
+                    <h2 class="apresentacao-links-subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao-links-link" href="https://www.github.com/charlesbrcosta" target="_blank">
+                        <img src="./assets/github.png" alt="icone do github circular com cor azul carlo e com desenho de um gato da cor preta." />
+                        Github
+                    </a>
+                    <a class="apresentacao-links-link" href="https://www.Linkedin.com/in/charlesbrcosta" target="_blank">
+                        <img src="./assets/linkedin.png" alt="siglas i n minúscula da cor azul clara" />
+                        Linkedin
+                    </a>
+                    <a class="apresentacao-links-link" href="https://www.twitch.tv/brsantos_" target="_blank">
+                        <img src="./assets/twitch.png" alt="" />
+                        Twitch
+                    </a>
                 </div>
             </section>
-            <img src="./image/img-portifolio.png" alt="Foto de Charles Bruno. Imagem preta e branco. Estou usando terno e camisa social.">
+            <img class="apresentacao-imagem" src="./assets/img-portifolio.png" alt="Foto de Charles Bruno. Imagem preta e branco. Estou usando terno e camisa social.">
         </main>
-        <footer>
+        <footer class="rodape">
             <p>&copy;2024 Charles Bruno. Todos os direitos reservados.</p>
-        </footer>   
+        </footer>        
     </body>
 </html>
