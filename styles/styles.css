@@ -46,7 +46,6 @@ body{
     gap: 2.5rem;
 }
 
-.apresentacao-conteudo h1,
 .apresentacao-conteudo p {
     text-align: justify;
 }
@@ -98,7 +97,7 @@ body{
 }
 
 
-.apresentacao-links-link:hover {
+.apresentacao-links-navegacao:hover {
     background-color: var(--cor-hover);
     border: none;
     border-top: 2px solid var(--cor-terciaria);

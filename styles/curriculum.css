@@ -20,10 +20,15 @@
     padding: 5px 0 5px 0;
 }
 
-.info-contato {
+.apresentacao-info-pessoal{
     display: flex;
     flex-direction: column;
     gap: 0.3125rem;
+}
+
+.info-contato p{
+    pointer-events: none;
+    user-select: none;
 }
 
 .media-social {
