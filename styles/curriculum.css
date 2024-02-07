@@ -23,11 +23,11 @@
 .info-contato {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3125rem;
 }
 
 .media-social {
-    width: 400px;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
