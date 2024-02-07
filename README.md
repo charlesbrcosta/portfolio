@@ -45,6 +45,8 @@ Para visualizar o portfólio localmente, basta abrir o arquivo `index.html` em u
 
 Sinta-se à vontade para explorar as diferentes seções do portfólio e entrar em contato caso haja alguma dúvida ou sugestão de melhoria.
 
+Clique [aqui](https://portfolio-lemon-two-92.vercel.app/) para acessar o projeto
+
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT.

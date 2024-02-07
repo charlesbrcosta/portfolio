@@ -83,6 +83,178 @@ ul li {
     font-size: 1.5rem;
 }
 
+@media (max-width: 1280px) {
+    .media-social{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .cabecalho {
+        padding: 8%;
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+    
+    .apresentacao-info-pessoal h1{
+        font-size: 1.50rem;
+    }   
+
+    .apresentacao-info-pessoal h2{
+        font-size: 1.30rem;
+    }
+
+    .apresentacao-info-pessoal p{
+        font-size: 1.20rem;
+    }
+
+    .media-social{
+        width: 40%;
+    }
+
+    .resumo-secao h1 {
+        font-size: 1.50rem;
+    }
+
+    .resumo-secao h2 {
+        font-size: 1.30rem;
+    }
+
+    .resumo-secao h3 {
+        font-size: 1.25rem;
+    }
+    
+    .resumo-secao p,
+    .resumo-secao ul li {
+        font-size: 1.20rem;
+    }
+
+    .rodape{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 627px){
+
+    .apresentacao-info-pessoal h1{
+        font-size: 1.40rem;
+    }   
+
+    .apresentacao-info-pessoal h2{
+        font-size: 1.25rem;
+    }
+
+    .apresentacao-info-pessoal p{
+        font-size: 1.10rem;
+    }
+
+    .media-social{
+        width: auto;
+    }
+
+    .resumo-secao h1 {
+        font-size: 1.40rem;
+    }
+
+    .resumo-secao h2 {
+        font-size: 1.25rem;
+    }
+
+    .resumo-secao h3 {
+        font-size: 1.15rem;
+    }
+    
+    .resumo-secao p,
+    .resumo-secao ul li {
+        font-size: 1.15rem;
+    }
+
+    .rodape{
+        font-size: 1.25rem;
+    }
+   
+}
+
+@media (max-width: 540px){
+
+    .apresentacao-info-pessoal h1{
+        font-size: 1.25rem;
+    }   
+
+    .apresentacao-info-pessoal h2{
+        font-size: 1.20rem;
+    }
+
+    .apresentacao-info-pessoal p{
+        font-size: 1.10rem;
+    }
+
+    .media-social{
+        width: auto;
+    }
 
 
+    .resumo-secao h1 {
+        font-size: 1.30rem;
+    }
 
+    .resumo-secao h2 {
+        font-size: 1.20rem;
+    }
+
+    .resumo-secao h3 {
+        font-size: 1.10rem;
+    }
+    
+    .resumo-secao p,
+    .resumo-secao ul li {
+        font-size: 1.10rem;
+    }
+
+    .rodape{
+        font-size: 1.10rem;
+    }
+
+}
+
+@media (max-width: 280px){
+    .apresentacao-info-pessoal h1{
+        font-size: 1.15rem;
+    }   
+
+    .apresentacao-info-pessoal h2{
+        font-size: 1.10rem;
+    }
+
+    .apresentacao-info-pessoal p{
+        font-size: 0.899rem;
+    }
+
+    .media-social{
+        width: auto;
+    }
+
+    .resumo-secao h1 {
+        font-size: 1.15rem;
+    }
+
+    .resumo-secao h2 {
+        font-size: 1.10rem;
+    }
+
+    .resumo-secao h3 {
+        font-size: 1.05rem;
+    }
+    
+    .resumo-secao p,
+    .resumo-secao ul li {
+        font-size: 0.899rem;
+    }
+
+    .rodape{
+        font-size: 1.05rem;
+    }
+}   
